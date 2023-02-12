@@ -1,0 +1,63 @@
+1. There are different interpretations of artificial intelligence in different context. Please elaborate on the artificial intelligence in your eyes.
+  (tạm dịch: Trí thông minh nhân tạo được diễn đạt theo nhiều tài liệu khác nhau, hãy trình bày nó dưới góc nhìn của bạn.)
+--> -Trí thông minh nhân tạo về cơ bản là một hệ thần kinh nhân tạo của một bộ máy, nó có thể suy nghĩ logic và đưa ra các tín hiệu nhằm đáp ứng một tác vụ nào đó theo chủ ý của chính nó, 
+    không hề khác biệt so với hoạt động cơ bản của một bộ não con người. 
+    -Như con người, AI cần học và có một nguồn dữ liệu rất lớn để có thể đáp ứng với cái tên của nó.
+    - AI cần phải đạt được các yếu tố sau đây: Lý luận và giải quyết vấn đề; logic; Trình bày dữ liệu/ kiến thức; Học; xử lý ngôn ngữ tự nhiên; xử lí ảnh; xử lí cảm xúc; 
+
+2. Artificial intelligence, machine learning and deep learning are three concept often mentioned together. What is the relationship between them? What are the similiarities and difference between the three terms?
+  (tam dich: AI, ML và DL thường được đề cập chung với nhau, vậy giữa chúng có sự liên quan gì?, nêu sự khác biệt và giống.)
+--> Relationship: AL bao quát tất cả bao gồm cả ML và DL.
+    *Khác nhau:
+    -AI là khái niệm bao quát nhất, nó gồm ML và DL và giúp bộ máy có khả năng bắt chước hành vi của con người.
+    -ML là khái niệm con của AL, được áp dụng vào trong bộ máy để có khả năng tự học.
+    -DL sử dụng thuật toán và deep neural network để đáp ứng trong việc huấn luyện chỉ vào một hình thể hoặc mô hình cụ thể nào đó.
+    *Giống nhau: 
+    -chúng đều là những khái niệm được áp dụng vào bộ máy nhằm đáp ứng nhiệm vụ là khiến cho bộ máy có thể suy nghĩ và áp dụng phân tích logic hoặc phân loại trong một tác vụ, nhiệm vụ nào đó.
+
+
+3. After reading the AI application scenarios in this chapter, please describe in detail a field of AI application and its scenarios in real life based on your own life experience.
+  (tạm dịch: Sau đã kinh qua viễn cảnh AI, hãy mô tả chi tiết một lĩnh vực có sự ứng dụng của AI và viễn cảnh đó trong đời sống thực tế của bạn.)
+--> Trong lĩnh vực dịch vụ hiện nay có sự góp mặt của AI đã không còn xa lạ. Không những thế AI còn đóng vai trò rất lớn trong sự trợ giúp của chủ kinh doanh lẫn khách hàng
+    cụ thể như 
+    +Tương tác với con người nhiều hơn: tương tác với con người bằng giọng nói, hướng dẫn con người trong lựa chọn sản phẩm, sắp xếp và đưa ra các gợi ý cần thiết đối với nhu cầu 
+     của người mua sản phẩm, dịch tự động, xử lí hình ảnh giao thông, tội phạm, bảo mật...
+    +Phân tích nhu cầu và hành vi của khách hàng: có thể thấy rõ như Google, Facebook. Một khi đã tìm kiếm một sản phẩm, trên Facebook và Google sẽ gợi ý và quảng cáo các sản phẩm
+     tương tự để phù hợp nhu cầu của người dùng.
+    +Gia tăng trải nghiệm khách hàng: thay thế nhân viên tư vấn 24/24, hồi đáp nhanh và chính xác. Giúp chủ doanh nghiệp và khách hàng tiết kiệm được nhân công, tiền bạc và thời gian
+    +Mới nổi gần đây đó chính là chatGPT, là công cụ giúp con người trả lời nhanh chóng các vấn đề về mọi mặt từ công nghệ, kinh tế, y tế,...
+
+4. Which chip is for deep neural networks and Ascend AI processors. Please brief these four major modules.
+  (tạm dịch: con chip nào được sử dụng cho DNN và AAP, mô tả sơ lược về 4 loại module này.)
+   -Intel® Nervana™ Neural Network Processors (Link: https://www.intel.com/content/dam/www/public/us/en/ai/documents/16433-1_NNP-announce_NNP-I_brief_v5.1.pdf)
+    sơ lược: 
+      +Có thể lập trình: module này có một điều khiển có thể lập trình (Programable control), tích hợp Ổn áp (FIVR), có con chip intel lõi bao gồm intel advanced Vector Extensions và Vector Neural 
+                         Network  Instruction để có thể dễ dàng lập trình.
+      +Tối ưu việc can thiệp và xử lí song song
+      +Nạp một lần, can thiệp nhiều lần: bộ nhớ module này cho phép chứa nhiều mô hình lớn một lần, sau đó phục vụ cho việc can thiệp các tác vụ vào trong đó
+      +Triển khai ngay tại chỗ: hỗ trợ triển khai ngay tại trung tâm dữ liệu hoặc network edge với nhiều các yếu tố và các dòng điện áp cấp vào khác nhau để tiện lợi tại 
+       các dự án với quy mô khác nhau.
+      +Ứng dụng mã nguồn mở
+
+   -EyeQ®5 (link: https://www.st.com/content/st_com/en/about/media-center/press-item.html/p3832.html#:~:text=%E2%80%9CEyeQ5%20is%20designed%20to%20serve,CTO%20and%20Chairman%20of%20Mobileye.
+                  https://en.wikichip.org/wiki/mobileye/eyeq/eyeq5.)
+    sơ lược: là dòng chip tự hành thế hệ thứ 5 (autonomous driving chip)
+      +Thiết kế với tiến trình 10nm
+      +Hiệu năng gấp 8 lần thế hệ thứ 4
+
+   -MYRIAD 2 (LINK: https://www.semanticscholar.org/paper/Always-on-Vision-Processing-Unit-for-Mobile-Barry-Brick/32d5405ac92a13d7f38e2313574dfd6238125a94?p2df)
+    Sơ lược: là một chip tích hợp đa lõi hỗ trợ xử lý ảnh và cảnh báo tầm nhìn cho nền tảng nhúng, mobile, đơn vị xử lý hình ảnh kết hợp tính song song, kiến trúc bộ hướng dẫn và các tính 
+             năng kiến trúc vi mô để cung cấp hiệu suất hoạt động bền vững cao trên một loại ứng dụng hình ảnh máy tính và thị giác máy tính, bao gồm những ứng dụng có yêu cầu độ trễ thấp
+             trong đặt hàng mỗi mỗi giây.
+    
+   -Loihi 2 (link: https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html)
+    sơ lược: là chip có khả năng tự học. Chip thử nghiệm do Loihi nghiên cứu bao gồm các mạch kỹ thuật số bắt chước cơ chế cơ bản của não bộ, giúp máy học nhanh hơn và hiệu quả hơn trong khi
+    yêu cầu sức mạnh tính toán thấp hơn. Các mô hình chip mô phỏng thần kinh lấy cảm hứng từ cách các tế bào thần kinh giao tiếp và học hỏi, sử dụng gai và khớp thần kinh dẻo có thể điều chỉnh dựa
+    trên thời gian. Điều này có thể giúp máy tính tự tổ chức và đưa ra quyết định dựa trên các mẫu và liên kết.
+
+5. Based on your current knowlegde and understanding, please elaborate on the development trends of AI in the future in your view.
+  (Tạm dịch: Dựa trên hiểu biết của bản thân, hãy trình bày phương hướng phát triển của AI trong tương lai dưới góc nhìn của bạn.)
+-->Gần đây đã nở rộ lên xu hướng đó là áp dụng AI vào các lĩnh vực khác nhau, nổi bật nhất trong đó có lẽ là chatGPT. Bản thân nó đã chứng minh rằng AI có tiềm năng vượt trội trong tương lai tới đây.
+   Và xu hướng tới trong tương lai đó chính là làm việc, tương tác và phát triển AI. Cụ thể hơn đó là sự chuyển đổi số hoàn toàn trong lĩnh vực kinh doanh, tương tác và làm việc từ xa. Các tác vụ 
+   từng được con người đảm nhiệm hiện tại sẽ do chính AI thực hiện trong tương lai, con người chỉ cần ra lệnh điều khiển từ xa. 
+  - Hoặc trong lĩnh vực giải trí và dịch vụ, AI sẽ dần thay thế con người như phát viên truyền hình, thần tượng ảo. Hoặc các chatbot mang tính chất cá nhân,...
